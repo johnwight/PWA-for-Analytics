@@ -1,21 +1,80 @@
-# PWA-for-Analytics
-Guide for using Adobe Analytics with Progressive Web Apps (PWAs).
+Skip to content
+Enterprise
+Search or jump to…
+
+Pull requests
+Issues
+Explore
+@wightSign out
+Useful links: Self-service portal | Wiki | GitHubInsights | Activity | Stage (new release preview and testing only)
+
+4
+317AdobeDocs/analytics.en
+ Code Issues 0 Pull requests 4 Projects 0 Wiki Insights Settings
+analytics.en/help/analyze/PWA/PWA
+827bed1 6 minutes ago
+@wight wight PWAs for Analytics
+   
+54 lines (33 sloc)  2.97 KB
+---
+description: Use Adobe Analytics with Progressive Web Apps (PWAs).
+seo-description: Use Adobe Analytics with Progressive Web Apps (PWAs).
+seo-title: PWAs for Analytics
+solution: Analytics
+title: PWAs for Analytics
+topic: PWAs
+uuid: 
+---
+
+# PWAs for Analytics
+
+This guide describes how to use Adobe Analytics with Progressive Web Apps (PWAs).
 
 ## Introduction
 
-Progressive Web Apps provide a native app experience to websites through a service worker and caching and a manifest file. Faster loading. Shortcut to home screens. Responsive.
+PWAs can provide a native app experience, as well as offline capabilities, for a website. Usually PWAs include a service worker, caching provisions, and a manifest file, all of which can help with faster load times, easier navigation, and responsive behavior. 
 
-Adobe Analytics for PWAs works just as seamlessly as it does with traditional websites. Although PWAs have a few more requirements to behave progressively in and of themselves, they do not create any barriers or limitations on how Analytics gathers or reports data from them any differently than traditional websites. In fact, because Analytics includes offline tracking capabilities, PWAs can provide extended features for your analysis.
+Adobe Analytics works just as seamlessly with PWAs as it does with traditional websites. Although PWAs have a few more requirements to behave progressively in and of themselves, they do not create any barriers or limitations on how Analytics gathers or reports data from them any differently than traditional websites. In fact, because Analytics already includes offline tracking capabilities, PWAs can help you leverage this built in feature more easily than with traditional websites.
 
-How to get your Analytics data on a PWA
+## Getting your PWA Analytics data
+
+To collect and analyze your PWA data with Analytics, you do not need to  make any configuration changes. Analtyics automatically provides all of the same functionality and features as it would with a traditional website.
+
+## Add offline tracking to increase PWA effectiveness
+
+You can increase the effectiveness of your PWA by using Analytics [offline tracking capabilities](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) with it. By default, this feature is turned off, but you can add the following property to the AppMeasurement.js file to turn it on: `s.trackOffline=true;`.
+
+For example, in the following AppMeasurement.js file, the property is added to the end of the `CONFIG SECTION`:
+
+```
+s.trackDownloadLinks=true 
+s.trackExternalLinks=true 
+s.trackInlineStats=true 
+s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,pdf,doc,docx,xls,xlsx,ppt,pptx" 
+s.linkInternalFilters="javascript:" //optional: add your internal domain here 
+s.linkLeaveQueryString=false 
+s.linkTrackVars="None" 
+s.linkTrackEvents="None" 
+s.trackOffline=true 
+```
 
 
-Add offline tracking to increase PWA effectiveness
+For more information on editing the AppMeasurement.js file, see [Inserting code into the AppMeasurement.js file](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html).
 
-You will see the same data characteristics and reporting visualizations when using Analytics with PWAs as you would with a traditional website. No configuration or adjustments are needed.
+For examples of configurations in the AppMeasurement.js file, see [Configuring the AppMeasurement.js file](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)
 
-However, you can increase the effectiveness of your PWA by using its function for caching offline data with Analytics offline tracking. To do this:
-
-
+For more information on the characteristics of the AppMeasurement.js file, see the [Javascript implementation overview](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html). 
 
 
+
+
+
+© 2019 GitHub, Inc.
+Help
+Support
+API
+Training
+Blog
+About
+GitHub Enterprise Server 2.16.8
+Press h to open a hovercard with more details.
