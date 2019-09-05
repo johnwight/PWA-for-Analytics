@@ -10,7 +10,7 @@ Adobe Analytics works just as seamlessly with PWAs as it does with traditional w
 
 ## Getting your PWA Analytics data
 
-To collect and analyze your PWA data with Analytics, you do not need to  make any configuration changes. Analtyics automatically provides all of the same functionality and features as it would with a traditional website.
+To collect and analyze your PWA data with Analytics, you do not need to  make any configuration changes. Analytics automatically provides all the same functionality and features as it would with a traditional website.
 
 ## Add offline tracking to increase PWA effectiveness
 
@@ -39,6 +39,6 @@ s.trackOffline=true
 
 For more information on editing the AppMeasurement.js file, see [Inserting code into the AppMeasurement.js file](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html).
 
-For examples of configurations in the AppMeasurement.js file, see [Configuring the AppMeasurement.js file](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)
+For examples of configurations in the AppMeasurement.js file, see [Configuring the AppMeasurement.js file](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7).
 
 For more information on the characteristics of the AppMeasurement.js file, see the [Javascript implementation overview](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html). 
