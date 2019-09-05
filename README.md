@@ -1,31 +1,3 @@
-Skip to content
-Enterprise
-Search or jump to…
-
-Pull requests
-Issues
-Explore
-@wightSign out
-Useful links: Self-service portal | Wiki | GitHubInsights | Activity | Stage (new release preview and testing only)
-
-4
-317AdobeDocs/analytics.en
- Code Issues 0 Pull requests 4 Projects 0 Wiki Insights Settings
-analytics.en/help/analyze/PWA/PWA
-827bed1 6 minutes ago
-@wight wight PWAs for Analytics
-   
-54 lines (33 sloc)  2.97 KB
----
-description: Use Adobe Analytics with Progressive Web Apps (PWAs).
-seo-description: Use Adobe Analytics with Progressive Web Apps (PWAs).
-seo-title: PWAs for Analytics
-solution: Analytics
-title: PWAs for Analytics
-topic: PWAs
-uuid: 
----
-
 # PWAs for Analytics
 
 This guide describes how to use Adobe Analytics with Progressive Web Apps (PWAs).
