@@ -36,17 +36,3 @@ For more information on editing the AppMeasurement.js file, see [Inserting code 
 For examples of configurations in the AppMeasurement.js file, see [Configuring the AppMeasurement.js file](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)
 
 For more information on the characteristics of the AppMeasurement.js file, see the [Javascript implementation overview](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html). 
-
-
-
-
-
-© 2019 GitHub, Inc.
-Help
-Support
-API
-Training
-Blog
-About
-GitHub Enterprise Server 2.16.8
-Press h to open a hovercard with more details.
