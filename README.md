@@ -19,6 +19,10 @@ You can increase the effectiveness of your PWA by using Analytics [offline track
 For example, in the following AppMeasurement.js file, the property is added to the end of the `CONFIG SECTION`:
 
 ```
+
+/************************** CONFIG SECTION **************************/ 
+/* You may add or alter any code config here. */ 
+/* Link Tracking Config */ 
 s.trackDownloadLinks=true 
 s.trackExternalLinks=true 
 s.trackInlineStats=true 
@@ -27,7 +31,9 @@ s.linkInternalFilters="javascript:" //optional: add your internal domain here
 s.linkLeaveQueryString=false 
 s.linkTrackVars="None" 
 s.linkTrackEvents="None" 
-s.trackOffline=true 
+s.trackOffline=true
+***
+    
 ```
 
 
